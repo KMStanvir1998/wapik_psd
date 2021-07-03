@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body{ 
+    font-family: 'Open Sans', sans-serif;
+    color: #83A7A5;
+}
+header{
+    background-image: url(../images/banner.jpg);
+    position: relative;
+}
+.overlay{
+    background-color: #0f5f5cba;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+header .row{
+    align-items: center;
+    min-height: 600px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: color: rgba(255, 255, 255, 0.5) !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px 12px;
+}
+.btn-highlight{
+    background: #83a7a5;
+    color: #fff !important;
+}
+.btn-highlight:hover{
+    background: #6FB048;
+    color: #fff;
+}
+.tel-number{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 2px;
+    border-left: 1px solid #fffffffa;
+    padding-left: 10px;
+}
+.banner{}
+.banner h1{color: #fff;font-size: 40px;font-weight: 600;}
+.banner p{
+    color: #fff;
+}
+.btn-custom{
+    background: #6FB048;
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-custom:hover{
+    background: #83A7A5;
+    color: #fff;
+}
+
+.navbar .container{
+    border-bottom: 1px solid #ffffff82;
+    padding: 15px 0;
+}
+
+.features-section{}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    color: #0f5f5c;
+    font-weight: 600;
+    margin: 0;
+}
+.heading span{
+    background: #6fb048;
+    width: 100px;
+    height: 2px;
+    display: inline-block;
+}
+.heading p{}
+
+.feature{
+    padding: 20px 0;
+}
+.feature img{margin-bottom: 10px;}
+.feature h3{
+    color: #0f5f5c;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.feature p{}
+.responsive-section{
+    /*background-image: url(../images/perfect-template.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    position: relative;
+    background-color: #eef1ec;
+    padding: 55px 0;
+}
+.responsive-section .heading{
+    text-align: center;
+    padding-bottom: 130px;
+}
+.responsive-section > img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+}
+
+.responsive-content{padding: 30px 0;}
+.responsive-content h3{
+    font-size: 32px;
+    color: #0f5f5c;
+}
+.responsive-content p{}
+.responsive-content ul{}
+.responsive-content ul li{}
+
+/*feedback-section*/
+ .feedback-section{}
+ .feedback-content{
+    margin: 69px 0;
+}
+ .feedback-content p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+ .feedback-content ul{}
+ .feedback-content ul li{
+    font-size: 14px;
+}
+ .feedback-section img{
+    margin: 25px 0;
+ }
+
+/*feedback-section*/
+
+/*details-section*/
+.details-section{
+    background-color: aliceblue;
+}
+.details-content{
+}
+.details-content h2{
+    font-size: 32px;
+}
+.details-content p{
+    font-size: 16px;
+}
+.details-section img{}
+
+/*details-section*/
+
+/*pricing-table-section*/
+.pricing-table-section{
+    padding: 120px 0;
+}
+.pricing-table{
+    border-top: 1px solid #83A7A5;
+    border-bottom: 1px solid #83A7A5;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.pricing-table-section .pricing-table:first-child{
+    border: 1px solid #83A7A5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.pricing-table-section .pricing-table:last-child{
+    border: 1px solid #83A7A5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pricing-table ul{}
+.pricing-table ul li{
+    font-size: 14px;
+    color: #83a7a5;
+    margin: 15px 0;
+}
+.pricing-table ul li.title{}
+.pricing-table ul li.title h4{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.pricing-table ul li.price h3{
+    font-size: 65px;
+    color: #0f5f5c;
+    font-weight: 600;
+}
+.pricing-table ul li h1{
+    display: block !important;
+    color: #0f5f5c;
+    font-weight: 600;
+    font-size: 14px;
+ }
+.pricing-table ul li button{
+    margin-top: 20px;
+}
+.pricing-table ul li button:hover{}
+/*pricing-table-section*/
+
+/*plans-section*/
+.plans-section{}
+.plans-section ul{
+    line-height: 3;
+}
+.plans-section ul li{}
+.plans-section ul li img{
+}
+/*plans-section*/
+
+
+/*help-section*/
+.help-section{}
+.help-section .need-help{
+    text-align: center;
+}
+.help-section .need-help img{
+    margin-bottom: 17px;
+}
+.help-section .need-help p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 15px;
+}
+.help-section .need-help h4{
+    color: #0f5f5c;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/*help-section*/
+
+/*cta-section*/
+.cta-section{
+    background-image: url(../images/cta.png);
+}
+.cta-section .download{}
+.cta-section .download h2{
+    color: #0f535f;
+    font-size: 28px;
+    font-weight: 600;
+}
+.cta-section .download p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.cta-section .download .btn-custom{
+    margin-top: 5px;
+}
+.cta-section .download .btn-custom:hover{}
+
+/*cta-section*/
+
+/*footer*/
+footer{
+    padding: 120px 0;
+}
+address{
+    line-height: 1.7;
+}
+form{}
+form .input-group{}
+form .input-group input{
+    background-color: #eef1ec;
+    border: 0;
+    padding: 10px 10px;
+    height: auto;
+}
+form .input-group .input-group-prepend{}
+form .input-group .input-group-prepend .input-group-text{
+    padding: 0;
+    background-color: #eef1ec;
+    border: 0;
+}
+form .input-group .input-group-prepend .input-group-text button{
+    padding: 10px 10px;
+    border: 0;
+    background-color: #eef1ec;
+}
+
+button {}
+form .input-group .input-group-prepend .input-group-text button img{
+    width: 25px;
+}
+
+.border{
+}
+.border .icons{}
+.border ul li img{
+    width: 30px;
+    margin: 5px 10px;
+}
+/*footer*/

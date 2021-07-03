@@ -1,0 +1,31 @@
+@media(max-width: 1499px){
+	
+}
+
+@media(max-width: 1199px){
+     header .row{
+     	min-height: 550px;
+     }
+}
+
+@media(max-width: 991px){
+	.feedback-section img {
+         height: 25%;
+         width: 25%;
+    }
+
+    .details-section img{
+    	display: none;
+    }
+}
+
+@media(max-width: 767px){
+	.responsive-section > img{
+		display: none;
+	}
+}
+
+@media(max-width: 575px){
+	
+}
+
